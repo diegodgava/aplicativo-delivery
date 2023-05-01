@@ -3,7 +3,6 @@ import React, { useState } from 'react'
 import { TouchableOpacity } from 'react-native'
 import { MinusCircleIcon, PlusCircleIcon } from 'react-native-heroicons/solid';
 import { useDispatch, useSelector } from 'react-redux';
-import numeral from 'numeral';
 import { addToBasket, removeFromBasket, selectBasketItems, selectBasketItemsWithId } from '../store';
 
 const DishRow = ({id, name, short_description, price, image}) => {
@@ -53,13 +52,13 @@ const DishRow = ({id, name, short_description, price, image}) => {
         <View className = 'bg-white px-4'>
             <View className = 'flex-row items-center space-x-2 pb-3'>
                 <TouchableOpacity onPress={removeItemFromBasket}>
-                    <MinusCircleIcon color ={items.length > 0 ? '#00CCBB' : 'gray'} size={40}/>
+                    <MinusCircleIcon color ={items.length > 0 ? '#FF7459' : 'gray'} size={40}/>
                 </TouchableOpacity>
 
                 <Text>{items.length}</Text>
 
                 <TouchableOpacity onPress = {addItemToBasket} >
-                    <PlusCircleIcon color = '#00CCBB' size={40}/>
+                    <PlusCircleIcon color = '#FF7459' size={40}/>
                 </TouchableOpacity>
             </View>
         </View>

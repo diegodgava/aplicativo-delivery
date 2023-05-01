@@ -1,6 +1,5 @@
 import { View, Text } from 'react-native'
 import React from 'react'
-import numeral from 'numeral';
 
 
 
@@ -197,8 +196,8 @@ const dishes = [
         address: 'Av. Guimarães Rosa, 26',
         short_description: 'Nosso bar oferece uma ampla seleção de saquês japoneses de alta qualidade, além de uma variedade de pratos japoneses modernos com um toque contemporâneo.',
         dishes: [dishes[0], dishes[1], dishes[2],dishes[3],dishes[4],dishes[5],dishes[6]],
-        long: 20,
-        lat: 0
+        long: -20.353411677897988,
+        lat: -40.339699026703386,
       },
     {
         id: 4,

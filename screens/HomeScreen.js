@@ -5,6 +5,7 @@
  import Categories from '../components/Categories'
  import FeaturedRow from '../components/FeaturedRow'
  import 'url-search-params-polyfill';
+ import logo from '../imagens/logo.jpeg';
  import restaurants from '../components/RestaurantData'
 
 
@@ -36,20 +37,21 @@
     {/* header */}
   <View className='flex-row pb-3 items-center mx-4 space-x-2'>
     <Image
-      source={{
-        uri: 'https://links.papareact.com/wru',
-      }}
-      className='h-7 w-7 bg-gray-300 p-4 rounded-full'
+      source={logo}
+      className='h-9 w-9 bg-gray-300 p-4 rounded-full'
     />
-   <View className='flex-1'>
-    <Text className='font-bold text-gray-400 text-xs'>Delivery agora!</Text>
+     <View style={{ flex: 1 }}>
+      <Text style={{ fontSize: 12 }}>Deliver agora!</Text>
       <View style={{ flexDirection: 'row', alignItems: 'center' }}>
-      <Text className='font-bold text-xl'>Localização Atual</Text>
-      <ChevronDownIcon size={20} color='#00CCBB' style={{ marginTop: 5, marginLeft: 3 }}/>
+        <Text style={{ fontWeight: 'bold', fontSize: 16 }}>Localização Atual</Text>
+        <View style={{ marginLeft: 5 }}>
+          <ChevronDownIcon size={20} color='#FF7459' />
+        </View>
+      </View>
     </View>
-  </View>
-
-    <UserIcon size={35} color='#00CCBB'/>
+    <View style={{ marginLeft: 'auto' }}>
+      <UserIcon size={35} color='#FF7459' />
+    </View>
   </View>
   {/* search */}
         <View className = 'flex-row items-center space-x-2 pb-2 mx-4'>
@@ -59,7 +61,7 @@
             
             </View>
             
-            <AdjustmentsVerticalIcon color='#00CCBB'/>
+            <AdjustmentsVerticalIcon color='#FF7459'/>
         </View>
   {/* Body */ }
 
