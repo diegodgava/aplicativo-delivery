@@ -55,7 +55,7 @@ const dispatch = useDispatch()
         <TouchableOpacity 
         onPress={navigation.goBack}
         className= 'absolute top-14 left-5 p-2 bg-gray-100 rounded-full'>
-        <ArrowLeftIcon size={20} color='#FF7459'/>
+        <ArrowLeftIcon size={20} color='#ec575a'/>
         </TouchableOpacity>
       </View>
 
@@ -83,7 +83,7 @@ const dispatch = useDispatch()
           <Text className= 'pl-2 flex-1 text-md font-bold'>
             Tem alergia a algum alimento?
           </Text>
-          <ChevronRightIcon color='#FF7459' size={20}/>
+          <ChevronRightIcon color='#ec575a' size={20}/>
         </TouchableOpacity>
       </View>
     <View className = 'pb-36'>

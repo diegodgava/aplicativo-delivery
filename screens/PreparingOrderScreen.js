@@ -18,9 +18,9 @@ useEffect(() => {
 }, [])
 
   return (
-    <SafeAreaView className = 'bg-[#FF7459] flex-1 justify-center items-center'>
+    <SafeAreaView className = 'bg-[#CD6465] flex-1 justify-center items-center'>
         <Animatable.Image
-        source={require('../imagens/cat.gif')}
+        source={require('../imagens/panela.gif')}
         animation={'slideInUp'}
         iterationCount={1}
         className = 'h-96 w-96'

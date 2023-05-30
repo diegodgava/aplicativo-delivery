@@ -41,16 +41,16 @@
       className='h-9 w-9 bg-gray-300 p-4 rounded-full'
     />
      <View style={{ flex: 1 }}>
-      <Text style={{ fontSize: 12 }}>Deliver agora!</Text>
+      <Text style={{ fontSize: 12 }}>Delivery agora!</Text>
       <View style={{ flexDirection: 'row', alignItems: 'center' }}>
         <Text style={{ fontWeight: 'bold', fontSize: 16 }}>Localização Atual</Text>
         <View style={{ marginLeft: 5 }}>
-          <ChevronDownIcon size={20} color='#FF7459' />
+          <ChevronDownIcon size={20} color='#ec575a' />
         </View>
       </View>
     </View>
     <View style={{ marginLeft: 'auto' }}>
-      <UserIcon size={35} color='#FF7459' />
+      <UserIcon size={35} color='#ec575a' />
     </View>
   </View>
   {/* search */}
@@ -61,7 +61,7 @@
             
             </View>
             
-            <AdjustmentsVerticalIcon color='#FF7459'/>
+            <AdjustmentsVerticalIcon color='#ec575a'/>
         </View>
   {/* Body */ }
 

@@ -18,7 +18,7 @@ const DeliveryScreen = () => {
     const restaurant = useSelector(selectRestaurant)
 
   return (
-    <View className = 'bg-[#FF7459] flex-1'>
+    <View className = 'bg-[#ec575a] flex-1'>
         <SafeAreaView className= 'z-50'>
             <View className= 'flex-row justify-between items-center p-5'>
                 <TouchableOpacity onPress={() => navigation.navigate('Home')}>
@@ -39,7 +39,7 @@ const DeliveryScreen = () => {
                 style={{ width: 50, height: 50, borderRadius: 100 }}
                  />
             </View>
-            <Progress.Bar size={30} color='#FF7459' indeterminate = {true}/>
+            <Progress.Bar size={30} color='#ec575a' indeterminate = {true}/>
         <Text className= 'mt-3 text-gray-500'>
         O seu pedido no {restaurant.title} está sendo preparado!
 
@@ -67,7 +67,7 @@ const DeliveryScreen = () => {
                 title= {restaurant.title}
                 description={restaurant.short_description}
                 identifier='origin'
-                pinColor='#FF7459'
+                pinColor='#ec575a'
             
             />
 
@@ -94,7 +94,7 @@ const DeliveryScreen = () => {
 
     </View>
 
-      <Text className= 'text-[#FF7459] text-lg mr-5 font-bold mb-9'>Ligar</Text>
+      <Text className= 'text-[#ec575a] text-lg mr-5 font-bold mb-9'>Ligar</Text>
 </SafeAreaView>
 
     </View>
